@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed3327698fd1a3b4896c6e0297d6e0cc, type: 3}
+  m_Name: MaterialMaps 11
+  m_EditorClassIdentifier: 
+  AlbedoMap: {fileID: 2800000, guid: b8ec82e0cc4539e4183a09760faef0df, type: 3}
+  DisplacementMap: {fileID: 2800000, guid: 8b2f0664e893ac042a423b8ab6e3ede7, type: 3}
+  OcclusionMap: {fileID: 2800000, guid: 420cfb15e43dcd8478f0ca8290cc2337, type: 3}
+  SpecularMap: {fileID: 2800000, guid: a34b7be1b2f8694469bccb4133c4e746, type: 3}
+  NormalMap: {fileID: 2800000, guid: a8b6efd72524d584ea63b22fb8a69845, type: 3}
+  material: {fileID: 2100000, guid: fece69723687c5f47ad833ea1e0b0fd0, type: 2}
