@@ -4,7 +4,6 @@
 */
 
 using UnityEngine;
-using UnityEngine.UI;
 
 [CreateAssetMenu(fileName = "MaterialMaps", menuName = "MaterialMaps")]
 public class MaterialScriptableObject : ScriptableObject

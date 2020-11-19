@@ -6,24 +6,19 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class RawMapsLoader : MonoBehaviour
+public class RawMapsLoader : EmojiManager
 {
 	public RawImage albedoMap;
 	public RawImage specularMap;
 	public RawImage DisplacementMap;
 	public RawImage NormalMap;
 	public RawImage OcclusionMap;
-
-	public MaterialScriptableObject[] materialObjects;
-
-	public int emojiNumber = 0;
-
-	private void Start()
+	public void SetEmojiNumber(int _emojiNumber)
 	{
-	}
-	public void SetEmojiNumber(int emojiNumber)
-	{
+		emojiNumber = _emojiNumber;
 		loadTexturesIntoGrid(emojiNumber);
+		NullMaterial();
+		ApplyAlbedoMap();
 	}
 	private void loadTexturesIntoGrid(int index)
 	{
